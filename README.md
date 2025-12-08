@@ -1,5 +1,10 @@
 # The Archive of the Unsung — Shelved Resources
 
+[![Archive](https://img.shields.io/badge/Archive-Shelved%20Resources-6A5ACD?style=for-the-badge&logo=git-extensions&logoColor=white)]()
+[![Homelab](https://img.shields.io/badge/Homelab-Preserved%20Stacks-149414?style=for-the-badge&logo=serverfault&logoColor=white)]()
+[![Git](https://img.shields.io/badge/Git-Orphan%20Branches-F05032?style=for-the-badge&logo=git&logoColor=white)]()
+[![Preservation](https://img.shields.io/badge/Philosophy-Nothing%20Deleted-8A2BE2?style=for-the-badge&logo=archive&logoColor=white)]()
+
 A place for all the things you've built, tuned, configured — and then moved on from. This repository is a carefully structured time capsule for **unused, paused, or decommissioned services**, ensuring their resources are never truly lost.
 
 Much like a library stores retired manuscripts or a museum preserves tools of a bygone era, this repo safeguards Docker Compose files, configuration templates, service-specific data, and custom scripts from being deleted or forgotten — even if they’re not part of your current stack.
@@ -8,7 +13,7 @@ Much like a library stores retired manuscripts or a museum preserves tools of a 
 
 ---
 
-## Table of Contents
+## 📑 Table of Contents <a id="table-of-contents"></a>
 
 - [What This Repository Is](#what-this-repository-is)
 - [Philosophy: "Nothing Gets Deleted, Only Shelved"](#philosophy-nothing-gets-deleted-only-shelved)
@@ -23,7 +28,7 @@ Much like a library stores retired manuscripts or a museum preserves tools of a 
 
 ---
 
-## What This Repository Is
+## What This Repository Is <a id="what-this-repository-is"></a>
 
 - A **centralized archive** for unused services, settings, and system files.
 - A **clean workspace** to preserve prior work without cluttering active codebases.
@@ -34,7 +39,7 @@ Each orphan branch is a standalone snapshot of a specific project or service tha
 
 ---
 
-## Philosophy: "Nothing Gets Deleted, Only Shelved"
+## Philosophy: "Nothing Gets Deleted, Only Shelved" <a id="philosophy-nothing-gets-deleted-only-shelved"></a>
 
 This repository is not where active development occurs. Instead, it's a **persistent memory layer** — storing what’s been put on hold, migrated away from, or rewritten.
 
@@ -42,7 +47,7 @@ Unlike conventional repositories, there’s no shared history between branches. 
 
 ---
 
-## Key Benefits
+## Key Benefits <a id="key-benefits"></a>
 
 - **Preservation of work** – Nothing is lost when you offload unused services.
 - **Future-proofing** – Need to revive an old stack? It’s all here.
@@ -53,14 +58,14 @@ Unlike conventional repositories, there’s no shared history between branches. 
 
 ---
 
-## Repository Layout
+## Repository Layout <a id="repository-layout"></a>
 
-### main Branch
+### main Branch <a id="main-branch"></a>
 
 - Contains **only** this `README.md`.
 - Serves as the entry point to understand the structure and purpose of the repo.
 
-### Orphan Branches
+### Orphan Branches <a id="orphan-branches"></a>
 
 Each orphan branch represents one archived service and contains its associated files and configurations.
 
@@ -113,7 +118,7 @@ graph TD
 
 ---
 
-## Best Practices for Shelving
+## Best Practices for Shelving <a id="best-practices-for-shelving"></a>
 
 - ✅ Use **descriptive branch names** matching the service or original repo.
 - ✅ Group related files under a folder if the service needs extra configs.
@@ -124,7 +129,7 @@ graph TD
 
 ---
 
-## Tips
+## Tips <a id="tips"></a>
 
 - Use `git checkout --orphan <branch>` to create new archival branches.
 - Add a short branch-local `README.md` if there's extra context worth keeping.
@@ -132,7 +137,7 @@ graph TD
 
 ---
 
-## FAQ
+## FAQ <a id="faq"></a>
 
 **Q: Can I restore a full service from this repo?**  
 Yes — most branches are plug-and-play or easily adapted.
@@ -152,11 +157,15 @@ Orphan branches give:
 
 ---
 
-## Final Words
+## Final Words <a id="final-words"></a>
 
 This repo exists to **honor your past work**. Sometimes it takes just a glance at an old config to unblock a new idea, restart a retired service, or avoid repeating mistakes.
 
 Treat this as your personal **museum of infrastructure**.
 
 > “Nothing is ever truly gone. It’s just shelved.” 🗃️
+
+---
+
+[⬆️ Back to Top](#table-of-contents)
 **THIS REPOSITORY IS ENCRYPTED. IF YOU'RE HERE, YOU'RE EITHER VERY BRAVE OR VERY LOST. EITHER WAY, GOOD LUCK!**
